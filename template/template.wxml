@@ -1,0 +1,78 @@
+<template name="wearAndRide">
+  <view class='tem-wear'>
+    <image src='{{img}}' mode='widthFix'></image>
+    <text>{{id}}、{{text}}</text>
+  </view>
+</template>
+
+<!-- 课程推荐模版 -->
+<template name='courseRecommend'>
+  <view class='tem-course-recommend' id='{{id}}' bindtap='recommendDetail'>
+    <image src='{{img}}'></image>
+    <view class='tem-course-recommend-right'>
+      <text class='tem-course-recommend-title'>{{title}}</text>
+      <text class='tem-course-recommend-teacher'>讲师：{{teacher}}</text>
+      <text class='tem-course-recommend-brief'>{{courseBrief}}</text>
+    </view>
+  </view>
+</template>
+
+<!-- 精彩课程模版 -->
+<template name='courseWonderful'>
+  <view class='tem-course-wonderful' id='{{id}}' bindtap='recommendDetail'>
+    <image src='{{img}}'>
+      <text class='play-time'>{{time}}</text>
+      <view class='tem-course-wonderful-text'>
+        <text class='tem-course-recommend-title'>{{title}}</text>
+        <text class='tem-course-recommend-teacher'>讲师：{{teacher}}</text>
+      </view>
+    </image>
+  </view>
+</template>
+
+<!-- 名师在线模版 -->
+<template name='teacher'>
+  <view class='tem-teacher' id='{{id}}' bindtap='teacherDetail'>
+    <image src='{{pic}}'></image>
+    <view class='tem-teacher-text'>
+      <text>{{name}}</text>
+      <text>{{grade}}</text>
+    </view>
+    <text class='teacher-brief'>{{brief}}</text>
+
+  </view>
+</template>
+
+<!-- 读书界面模版 -->
+<template name='readding'>
+  <view class='tem-readding' id='{{id}}' bindtap='readDetail'>
+    <image src='{{img}}'></image>
+    <view class='tem-readding-text'>
+      <text>{{title}}</text>
+      <text>{{name}}</text>
+    </view>
+  </view>
+</template>
+
+
+<!-- 艺术展览界面模版 -->
+<template name='art'>
+  <view class='tem-art' id='{{id}}' bindtap='artDetail'>
+    <image src='{{img[0]}}' mode='widthFix'></image>
+    <view class='tem-art-text'>
+      <text>{{title}}</text>
+      <text>{{artBrief}}</text>
+    </view>
+  </view>
+</template>
+
+<!-- 口福界面展示模板 -->
+<template name='luck'>
+  <view class='tem-luck' id='{{id}}' bindtap='foodDetail'>
+    <image src='{{img[0]}}'></image>
+		<text class='food-name'>{{name}}</text>
+    <view class='tem-luck-text'>
+      <text>￥{{price}}</text>
+    </view>
+  </view>
+</template>

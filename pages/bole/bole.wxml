@@ -1,0 +1,75 @@
+<view class='bole-box'>
+
+  <text class='title'>寻找千里马</text>
+
+  <view class='bole-item'>
+    <label for='name'>职位名称：</label>
+    <input id='name' bindinput='getNameInputValue' placeholder='请填写职位名称'></input>
+  </view>
+
+  <view class='bole-item'>
+    <label for='claim'>岗位要求：</label>
+    <input id='claim' bindinput='getClaimInputValue' placeholder='请填写岗位要求'></input>
+  </view>
+
+  <!-- <view class='bole-item bole-choice'>
+    <label>技能要求：</label>
+    <text>{{skill}}</text>
+  </view> -->
+
+  <view class='bole-select'>
+
+    <view class='select-item' data-type='1' bindtap='openselect'>
+      <text>经验要求</text>
+      <text>{{experience == ""?"一年以内":experience}}</text>
+    </view>
+
+    <view class='select-item' data-type='2' bindtap='openselect'>
+      <text>最低学历</text>
+      <text>{{education == ""?"本科":education}}</text>
+    </view>
+
+    <view class='select-item' data-type='3' bindtap='openselect'>
+      <text>月薪</text>
+      <text>{{salary == ""?"请选择":salary}}</text>
+    </view>
+
+  </view>
+
+  <view class='bole-item'>
+    <label for='address'>工作地点：</label>
+    <input id='address' bindinput='getAddressInputValue' placeholder='请填写岗位要求'></input>
+  </view>
+  <view class='btn-release' data-name='{{name}}' data-claim='{{claim}}' data-experience='{{experience}}' data-education='{{education}}' data-salary='{{salary}}' data-address='{{address}}' bindtap='release'>发布</view>
+</view>
+
+<view class='select-experience' style='{{flag?"display:block":"display:none"}}'>
+  <view class='select-box'>
+    <text bindtap='finish' data-finish='{{finish}}'>完成</text>
+    <text data-data='{{selectTitle}}'>{{selectTitle}}</text>
+  </view>
+  <view wx:if='{{type == 1 || type == 2}}'>
+    <block wx:for='{{arryList}}' wx:key='key'>
+      <text bindtap='lastTap' style='{{switchData == arryList[index]?"color:#f00;":"color:#000;" }}' data-data='{{arryList[index]}}'>{{arryList[index]}}</text>
+    </block>
+  </view>
+
+  <view class='select-two' wx:if='{{type == 3}}'>
+    <swiper vertical='true' display-multiple-items='4' class='select-two-cont'>
+      <block wx:for='{{arryList}}' wx:key='key'>
+        <swiper-item>
+          <text bindtap='firstTap' style='{{switchFirstData == arryList[index]?"color:#f00;":"color:#000;" }}' data-data='{{arryList[index]}}'>{{arryList[index]}}k</text>
+        </swiper-item>
+
+      </block>
+    </swiper>
+    <swiper vertical='true' display-multiple-items='4' class='select-two-cont'>
+      <block wx:for='{{arryList}}' wx:key='key'>
+        <swiper-item>
+          <text bindtap='lastTap' style='{{switchData == arryList[index]?"color:#f00;":"color:#000;" }}' data-data='{{arryList[index]}}'>{{arryList[index]}}k</text>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+</view>

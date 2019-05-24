@@ -1,0 +1,31 @@
+.title {
+  display: block;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: bold;
+}
+
+.problem-item {
+  padding: 30rpx;
+}
+
+.problem-item text {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.problem-item input {
+  border-bottom: 1rpx solid #cfcfcf;
+  margin-top: 20rpx;
+}
+
+.investigate-box form{
+	display: block;
+}
+
+.investigate-box button {
+  margin: 30rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+}

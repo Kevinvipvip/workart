@@ -1,0 +1,63 @@
+.slide-image {
+  display: block;
+  width: 100%;
+}
+
+.food-center {
+  background: #ddd;
+  padding: 30rpx;
+}
+
+.food-center text {
+  display: block;
+  font-size: 30rpx;
+}
+
+.food-center .food-name {
+  font-size: 35rpx;
+  font-weight: bold;
+}
+
+.food-center .food-price {
+  font-size: 34rpx;
+  color: #f00;
+  margin: 20rpx 0;
+}
+
+.food-center .food-center-cont {
+  display: flex;
+  color: #666;
+}
+
+.food-center .food-center-cont text {
+  margin-right: 30rpx;
+}
+
+.producer-box{
+	margin-top: 20rpx;
+	padding: 10rpx 30rpx;
+	background: #ddd;
+	box-shadow: 1rpx 1rpx 1rpx 1rpx #ccc;
+}
+.producer-box text{
+	font-size: 30rpx;
+	display: block;
+	line-height: 50rpx;
+}
+.food-detail{
+	background: #ddd;
+	margin-top: 20rpx;
+	overflow: hidden;
+}
+.food-detail .detail-title{
+	display: block;
+	font-size: 34rpx;
+	line-height: 100rpx;
+	margin: 0 30rpx;
+	color: #d81e06;
+	font-weight: bold;
+}
+.food-detail image{
+	display: block;
+	width: 100%;
+}

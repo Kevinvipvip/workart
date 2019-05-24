@@ -1,0 +1,78 @@
+<!--index.wxml-->
+<import src="../../template/template.wxml" />
+
+<view class='header'>
+  <text bindtap='choiceClassify' data-flagNum="1" class='{{flagNum == 1?"on":""}}'>穿搭</text>
+  <text bindtap='choiceClassify' data-flagNum="2" class='{{flagNum == 2?"on":""}}'>讲堂</text>
+  <text bindtap='choiceClassify' data-flagNum="3" class='{{flagNum == 3?"on":""}}'>读书</text>
+  <text bindtap='choiceClassify' data-flagNum="4" class='{{flagNum == 4?"on":""}}'>口福</text>
+</view>
+
+<!-- 穿搭界面展示 -->
+<view class="wear-and-ride" style='{{flagNum == 1?"display:block":"display:none"}}'>
+  <text class='title'>职场穿搭，看我的职场范儿</text>
+  <text class='wear-brief'>职场，一个战场+秀场的结合体，除了没话说的业务能力，怎么打扮的得体不滥俗，就是纠结你很久的“就差那么一点儿”的亮点部分！</text>
+  <block wx:for="{{wearArry}}" wx:for-item="item" wx:key="key">
+    <template is="wearAndRide" data="{{...item}}" />
+  </block>
+</view>
+
+
+<!-- 讲堂界面展示 -->
+<view class="forum" style='{{flagNum == 2?"display:block":"display:none"}}'>
+
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+    <block wx:for="{{imgUrls}}" wx:for-item='item' wx:key='key'>
+      <swiper-item>
+        <image src="{{item.imgUrl}}" id='{{item.id}}' bindtap='recommendDetail' class="slide-image" mode='widthFix' />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <text class='title'>职场提升，我在行</text>
+  <view class='forum-header'>
+    <text bindtap='forumClassify' data-forum="1" class='{{forunNum == 1?"forum-on":""}}'>课程推荐</text>
+    <text bindtap='forumClassify' data-forum="2" class='{{forunNum == 2?"forum-on":""}}'>精彩课程</text>
+    <text bindtap='forumClassify' data-forum="3" class='{{forunNum == 3?"forum-on":""}}'>名师在线</text>
+  </view>
+  <view class='course-box' style='{{forunNum == 1?"display:block":"display:none"}}'>
+    <block wx:for="{{courseArry}}" wx:for-item="item" wx:key="key">
+      <template is="courseRecommend" data="{{...item}}" />
+    </block>
+  </view>
+
+  <view class='course-wonderfull-box' style='{{forunNum == 2?"display:flex":"display:none"}}'>
+    <block wx:for="{{courseArry}}" wx:for-item="item" wx:key="key">
+      <template is="courseWonderful" data="{{...item}}" />
+    </block>
+  </view>
+
+  <view class='teacher-box' style='{{forunNum == 3?"display:block":"display:none"}}'>
+    <block wx:for="{{teacherArry}}" wx:for-item="item" wx:key="key">
+      <template is="teacher" data="{{...item}}" />
+    </block>
+  </view>
+</view>
+
+
+<!-- 读书界面展示 -->
+<view class='readding' style='{{flagNum == 3?"display:block":"display:none"}}'>
+  <text class='title'>职场佳作，丰富自己的职场生涯</text>
+  <view class='readding-box'>
+    <block wx:for='{{readArry}}' wx:for-item='item' wx:key='key'>
+      <template is='readding' data='{{...item}}' />
+    </block>
+  </view>
+</view>
+
+<!-- 口福界面展示 -->
+<view class='luck' style='{{flagNum == 4?"display:block":"display:none"}}'>
+  <text class='title'>美食广场，对自己好一点</text>
+  <view class='food-box'>
+
+    <block wx:for='{{foodArry}}' wx:for-item='item' wx:key='key'>
+      <template is='luck' data='{{...item}}' />
+    </block>
+  </view>
+
+</view>

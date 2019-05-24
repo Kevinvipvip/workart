@@ -1,0 +1,22 @@
+.art-detail-box{
+	margin: 0 30rpx;
+}
+.art-detail-box text{
+	display: block;
+	font-size: 30rpx;
+	text-align: justify;
+	text-indent: 2em;
+	margin-bottom: 30rpx;
+}
+.art-detail-box .title{
+	font-weight: bold;
+	text-align: center;
+	font-size: 40rpx;
+	text-indent: unset;
+}
+
+.art-drtail-img image{
+	width: 100%;
+	display: block;
+	margin-bottom: 10rpx;
+}

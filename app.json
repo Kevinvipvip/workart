@@ -1,0 +1,61 @@
+{
+	"pages": [
+		"pages/auth/auth",
+		"pages/login/login",
+		"pages/notes/notes",
+		"pages/index/index",
+		"pages/mine/mine",
+		"pages/art/art",
+		"pages/logs/logs",
+		"pages/course/course",
+		"pages/bole/bole",
+		"pages/read/read",
+		"pages/investigate/investigate",
+		"pages/note-detail/note-detail",
+		"pages/note-publish/note-publish",
+		"pages/note-comment/note-comment",
+		"pages/recommend-detail/recommend-detail",
+		"pages/teacher-detail/teacher-detail",
+		"pages/read-detail/read-detail",
+		"pages/art-detail/art-detail",
+		"pages/food-detail/food-detail"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "职场艺术馆",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"backgroundColor": "#000",
+		"color": "#fff",
+		"selectedColor": "#d81e06",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "images/index.png",
+				"selectedIconPath": "images/index-selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/art/art",
+				"iconPath": "images/art.png",
+				"selectedIconPath": "images/art-selected.png",
+				"text": "艺术"
+			},
+			{
+				"pagePath": "pages/notes/notes",
+				"iconPath": "images/note.png",
+				"selectedIconPath": "images/note-selected.png",
+				"text": "笔记"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "images/mine.png",
+				"selectedIconPath": "images/mine-selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json"
+}

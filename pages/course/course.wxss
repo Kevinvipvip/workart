@@ -1,0 +1,69 @@
+@import "../../template/template.wxss";
+.title {
+  display: block;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: bold;
+}
+.forum {
+  background: #f8f8ff;
+  overflow: hidden;
+}
+
+.forum swiper {
+  height: 400rpx;
+}
+
+.forum swiper-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-image {
+  display: block;
+  width: 100%;
+}
+
+.forum-header {
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #fff;
+  margin: 10rpx 0;
+}
+
+.forum-header text {
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.forum-header .forum-on {
+  color: #000;
+  border-bottom: 2rpx solid #000;
+}
+
+/* 课程推荐盒子样式 */
+
+.course-box {
+  overflow: hidden;
+  background: #fff;
+}
+
+/* 精彩课程盒子样式 */
+
+.course-wonderfull-box {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* 名师在线盒子样式 */
+
+.teacher-box {
+  background: #fff;
+  overflow: hidden;
+}

@@ -1,0 +1,30 @@
+<view class='read-top'>
+  <image src='{{img}}'></image>
+  <view class='read-top-right'>
+    <view class='read-top-right-text'>
+      <text>书名：</text>
+      <text>{{title}}</text>
+    </view>
+    <view class='read-top-right-text'>
+      <text>作者：</text>
+      <text>{{name}}</text>
+    </view>
+
+    <view class='read-top-right-text'>
+      <text>出版日期：</text>
+      <text>{{publishDate}}</text>
+    </view>
+
+    <view class='read-top-right-text'>
+      <text>出版社：</text>
+      <text>{{press}}</text>
+    </view>
+
+  </view>
+</view>
+<view class='read-cont'>
+  <text class='read-title'>书籍简介：</text>
+  <text>{{brief}}</text>
+	<text class='read-title'>推荐留言：</text>
+  <text>{{reason}}</text>
+</view>

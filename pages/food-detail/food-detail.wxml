@@ -1,0 +1,26 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{loop}}" style="height:{{imgheights[current]}}rpx;" bindchange="bindchange">
+  <block wx:for="{{img}}" wx:for-item='item' wx:key='key'>
+    <swiper-item>
+      <image src="{{img[index]}}" data-id='{{index}}' class="slide-image" mode='widthFix' bindload='imageLoad' />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='food-center'>
+  <text class='food-name'>{{name}}</text>
+  <text class='food-price'>￥{{price}}</text>
+  <view class='food-center-cont'>
+    <text>保质期：{{period}}天</text>
+    <text>净含量：{{net_content}}g</text>
+  </view>
+</view>
+<view class='producer-box'>
+  <text>生产厂家：{{factoryname}}</text>
+  <text>厂家地址：{{factoryaddress}}</text>
+</view>
+<view class='food-detail'>
+<text class='detail-title'>食品详情</text>
+<block wx:for='{{detailImg}}' wx:for-item='item' wx:key='key'>
+<image src='{{detailImg[index]}}' mode='widthFix'></image>
+</block>
+</view>

@@ -1,0 +1,139 @@
+/**index.wxss**/
+@import "../../template/template.wxss";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  z-index: 9999;
+  justify-content: space-around;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #333;
+}
+
+.header text {
+  display: block;
+  width: 25%;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+}
+
+.header .on {
+  color: #d81e06;
+}
+
+/* 穿搭展示样式 */
+
+.wear-and-ride {
+  overflow: hidden;
+  margin: 80rpx 20rpx 40rpx;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: bold;
+}
+
+.wear-and-ride .wear-brief {
+  display: block;
+  margin: 0 0 30rpx 0;
+  text-align: justify;
+  font-size: 30rpx;
+  text-indent: 2em;
+}
+
+/* 讲堂界面样式 */
+
+.forum {
+  background: #f8f8ff;
+  margin: 80rpx 0 40rpx;
+  overflow: hidden;
+}
+
+.forum swiper {
+  height: 400rpx;
+}
+
+.forum swiper-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-image {
+  display: block;
+  width: 100%;
+}
+
+.forum-header {
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #fff;
+  margin: 10rpx 0;
+}
+
+.forum-header text {
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.forum-header .forum-on {
+  color: #000;
+  border-bottom: 2rpx solid #000;
+}
+
+/* 课程推荐盒子样式 */
+
+.course-box {
+  overflow: hidden;
+  background: #fff;
+}
+
+/* 精彩课程盒子样式 */
+
+.course-wonderfull-box {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* 名师在线盒子样式 */
+
+.teacher-box {
+  background: #fff;
+  overflow: hidden;
+}
+
+/* 读书界面展示样式 */
+
+.readding {
+  margin: 80rpx 0 40rpx;
+  overflow: hidden;
+}
+
+.readding-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* 口福界面展示样式 */
+
+.luck {
+  margin: 80rpx 0 40rpx;
+}
+.food-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}

@@ -1,0 +1,9 @@
+<view class='art-detail-box'>
+  <text class='title'>{{title}}</text>
+  <text>{{brief}}</text>
+	<view class='art-drtail-img'>
+	<block wx:for='{{imgArry}}' wx:key='key'>
+	<image src='{{imgArry[index]}}' mode='widthFix'></image>
+	</block>
+	</view>
+</view>

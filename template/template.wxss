@@ -1,0 +1,244 @@
+.tem-wear image {
+  width: 100%;
+  display: block;
+}
+
+.tem-wear text {
+  font-size: 30rpx;
+  text-align: justify;
+  display: block;
+  text-indent: 2em;
+  margin: 30rpx;
+}
+
+/* 课程推荐模版样式 */
+
+.tem-course-recommend {
+  margin: 30rpx;
+}
+
+.tem-course-recommend image {
+  float: left;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.tem-course-recommend .tem-course-recommend-right {
+  margin-left: 220rpx;
+}
+
+.tem-course-recommend-right text {
+  display: block;
+  font-size: 30rpx;
+}
+
+.tem-course-recommend-right .tem-course-recommend-title {
+  font-size: 35rpx;
+  font-weight: bold;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.tem-course-recommend-right .tem-course-recommend-teacher {
+  font-size: 24rpx;
+  color: #999;
+  line-height: 50rpx;
+}
+
+.tem-course-recommend-right .tem-course-recommend-brief {
+  text-align: justify;
+  padding: 0 10rpx;
+  text-indent: 2em;
+	height: 112rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* 精彩课程模版样式 */
+
+.tem-course-wonderful {
+  width: 50%;
+  border: 10rpx solid transparent;
+  box-sizing: border-box;
+}
+
+.tem-course-wonderful image {
+  position: relative;
+  border-radius: 20rpx;
+  overflow: hidden;
+  width: 100%;
+  height: 250rpx;
+  display: block;
+}
+
+.tem-course-wonderful image .play-time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24rpx;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
+
+.tem-course-wonderful image .tem-course-wonderful-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 30rpx;
+  height: 70rpx;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.tem-course-wonderful-text text {
+  display: block;
+  margin: 0 20rpx;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.tem-course-wonderful-text .tem-course-recommend-teacher {
+  font-size: 20rpx;
+}
+
+/* 名师在线模版样式 */
+
+.tem-teacher {
+  margin: 30rpx;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: #f8f8ff;
+  border: 2rpx solid #f8f8ff;
+  box-shadow: 1rpx 1rpx 1rpx 1rpx #ccc;
+  border-radius: 10rpx;
+}
+
+.tem-teacher image {
+  float: left;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+.tem-teacher .tem-teacher-text {
+  margin-left: 180rpx;
+  height: 150rpx;
+}
+
+.tem-teacher text {
+  display: block;
+  font-size: 30rpx;
+}
+
+.tem-teacher-text text {
+  font-size: 35rpx;
+  margin: 20rpx 0;
+}
+
+.tem-teacher .teacher-brief {
+  text-align: justify;
+  padding: 0 10rpx;
+  margin: 10rpx 0;
+  text-indent: 2em;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* 读书界面模版样式 */
+
+.tem-readding {
+  width: 32%;
+  background: #fff;
+  margin: 20rpx 0;
+}
+
+.tem-readding image {
+  width: 100%;
+  height: 300rpx;
+	display: block;
+}
+
+.tem-readding text {
+  font-size: 30rpx;
+  height: 40rpx;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/* 艺术展览界面模版样式 */
+.tem-art{
+	margin-bottom: 30rpx;
+}
+.tem-art image{
+	width: 100%;
+	display: block;
+}
+.tem-art text{
+	display: block;
+	font-size: 30rpx;
+}
+.tem-art .tem-art-text text:nth-child(1){
+	font-weight: bold;
+	font-size: 40rpx;
+	padding: 0 10rpx;
+	line-height: 70rpx;
+}
+.tem-art .tem-art-text text:nth-child(2){
+	text-align: justify;
+  padding: 0 10rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+
+/* 口服界面模板样式 */
+.tem-luck{
+	width: 48%;
+	background: #ddd;
+	margin-bottom: 20rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+	box-shadow: 1rpx 1rpx 1rpx 1rpx #ccc; 
+}
+
+.tem-luck image{
+	display: block;
+	width: 48vw;
+	height: 48vw;
+}
+.tem-luck .food-name{
+	display: block;
+	font-size: 34rpx;
+	margin-top: 20rpx;
+	margin-left: 20rpx;
+	height: 80rpx;
+	font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tem-luck-text{
+	display: flex;
+	justify-content: space-between;
+}
+.tem-luck-text text{
+	font-size: 30rpx;
+	padding: 10rpx;
+}

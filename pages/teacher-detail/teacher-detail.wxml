@@ -1,0 +1,25 @@
+<view class='teacher-top'>
+  <image src='{{pic}}'></image>
+  <view class='teacher-top-right'>
+    <text>{{name}}  {{teachAge==""? "":"教龄"+teachAge+"年"}}</text>
+    <text>头衔：{{grade}}</text>
+  </view>
+
+</view>
+<view class='teacher-cont'>
+  <text class='teacher-title'>介绍</text>
+  <text>{{brief}}</text>
+  <text class='teacher-title'>特点</text>
+  <text style='text-indent: unset;'>{{peculiarity}}</text>
+  <text class='teacher-title'>相关课程</text>
+  <block wx:for='{{courseArry}}' wx:for-item='item' wx:key='key'>
+    <view class='course-box' id='{{item.courseid}}' bindtap='gotodetail'>
+      <image src='{{item.courseimg}}'></image>
+      <view class='course-box-right'>
+        <text>{{item.coursename}}</text>
+				<text>点击量：{{item.courselinknum}}</text>
+				<text>收藏数：{{item.coursecollectnum}}</text>
+      </view>
+    </view>
+  </block>
+</view>

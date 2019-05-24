@@ -1,0 +1,19 @@
+@import "../../template/template.wxss";
+
+.title {
+  display: block;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: bold;
+}
+
+.readding {
+  overflow: hidden;
+}
+
+.readding-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

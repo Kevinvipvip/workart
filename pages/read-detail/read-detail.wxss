@@ -1,0 +1,59 @@
+.read-top {
+	box-shadow: 1rpx 1rpx 1rpx 1rpx #ccc;
+  height: 400rpx;
+  background: #f8f8ff;
+  overflow: hidden;
+}
+
+.read-top image {
+  height: 340rpx;
+  width: 250rpx;
+  display: block;
+  float: left;
+  margin: 30rpx;
+}
+
+.read-top .read-top-right {
+  height: 100%;
+  margin-left: 310rpx;
+  margin: 30rpx 0;
+}
+
+.read-top-right .read-top-right-text {
+  display: flex;
+  margin: 40rpx 0;
+}
+
+.read-top-right-text text {
+  display: block;
+  font-size: 30rpx;
+}
+
+.read-top-right-text text:nth-child(1) {
+  width: 150rpx;
+  font-weight: bold;
+  text-align: center;
+}
+
+.read-top-right-text text:nth-child(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.read-cont {
+  margin: 30rpx;
+}
+
+.read-cont text {
+	display: block;
+  font-size: 32rpx;
+	line-height: 50rpx;
+  text-align: justify;
+  text-indent: 2em;
+	margin-bottom: 20rpx;
+}
+.read-cont .read-title{
+	font-weight: bold;
+	text-indent: unset;
+}

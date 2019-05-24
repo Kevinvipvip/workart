@@ -1,0 +1,70 @@
+.teacher-top {
+  overflow: hidden;
+  height: 210rpx;
+  background: #333;
+  color: #fff;
+}
+
+.teacher-top image {
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  margin: 30rpx;
+}
+
+.teacher-top-right {
+  overflow: hidden;
+  height: 210rpx;
+  margin-left: 210rpx;
+}
+
+.teacher-top-right text {
+  font-size: 32rpx;
+  display: block;
+  margin: 40rpx 0;
+}
+
+.teacher-cont {
+  margin: 30rpx;
+}
+
+.teacher-cont text {
+  display: block;
+  font-size: 30rpx;
+	text-indent: 2em;
+	text-align: justify;
+  margin-bottom: 20rpx;
+}
+
+.teacher-cont .teacher-title {
+	text-indent: unset;
+  font-weight: bold;
+  font-size: 34rpx;
+}
+.course-box{
+	height: 28vw;
+	padding: 20rpx 0;
+	margin-bottom: 20rpx;
+	border-radius: 10rpx;
+	background: #f8f8ff;
+	overflow: hidden;
+}
+.course-box image{
+	border-radius: 10rpx;
+	width: 28vw;
+	height: 28vw;
+	display: block;
+	float: left;
+}
+.course-box .course-box-right{
+	margin-left: 30vw;
+}
+.course-box .course-box-right text{
+	text-indent: unset;
+}
+.course-box .course-box-right text:nth-child(1){
+	font-size: 34rpx;
+	font-weight: bold;
+}

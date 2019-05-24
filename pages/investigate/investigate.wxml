@@ -1,0 +1,19 @@
+<view class='investigate-box'>
+  <text class='title'>职场问卷，了解职场</text>
+
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <block wx:for='{{problemArry}}' wx:key='key'>
+      <view class='problem-item'>
+        <text>{{item.problem}}</text>
+        <input name='{{index+1}}'></input>
+      </view>
+    </block>
+    <view class='problem-item'>
+      <text>请留个联系方式吧</text>
+      <input name='phone' type='number' maxlength='11'></input>
+    </view>
+    <button form-type='submit'>提交</button>
+    <button form-type='reset'>重置</button>
+  </form>
+
+</view>

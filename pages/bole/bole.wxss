@@ -1,0 +1,100 @@
+.bole-box {
+  overflow: hidden;
+  padding: 30rpx;
+}
+
+.bole-box .title {
+  margin-bottom: 30rpx;
+  display: block;
+  text-align: center;
+  font-size: 34rpx;
+  font-weight: bold;
+}
+
+.bole-item{
+	margin-bottom: 20rpx;
+}
+.bole-item label {
+  font-size: 30rpx;
+}
+.bole-item input{
+	height: 80rpx;
+	font-size: 34rpx;
+	border-bottom: 1rpx solid #cfcfcf;
+}
+.bole-choice{
+	height: 80rpx;
+	line-height: 80rpx;
+	padding-bottom: 10rpx;
+	border-bottom: 1rpx solid #cfcfcf;
+}
+.bole-item text{
+	font-size: 30rpx;
+}
+.bole-select{
+	padding: 20rpx 0;
+	margin-bottom: 20rpx;
+	border-bottom: 1rpx solid #cfcfcf;
+	display: flex;
+	justify-content: space-around;
+}
+.bole-select .select-item{
+	width: 33.33%;
+}
+.select-item text{
+	display: block;
+	text-align: center;
+}
+.select-item text:first-child{
+	font-size: 30rpx;
+	color: #666;
+}
+
+.btn-release{
+	background: #cfcfcf;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	margin-top: 80rpx;
+	border-radius: 10rpx;
+}
+
+.select-experience{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 465rpx;
+	background: #f8f8ff;
+	z-index: 999;
+}
+.select-experience text{
+	display: block;
+	text-align: center;
+	line-height: 80rpx;
+	background: #fff;
+	margin: 10rpx 0;
+}
+.select-box{
+	height: 80rpx;
+	line-height: 80rpx;
+	margin: 20rpx 0;
+}
+.select-box text{
+	background: transparent;
+	margin: 0 150rpx;
+	text-align: center;
+}
+.select-box text:nth-child(1){
+	float: right;
+	width: 150rpx;
+	margin: 0;
+}
+.select-two{
+	display: flex;
+	justify-content: space-between;
+}
+.select-two .select-two-cont{
+	width: 50%;
+}

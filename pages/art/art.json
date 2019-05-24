@@ -1,0 +1,5 @@
+{
+  "usingComponents": {},
+	"enablePullDownRefresh": true,
+	"navigationBarTitleText": "艺术展览"
+}

@@ -1,0 +1,12 @@
+<view class='video-box'>
+  <image src='{{video}}' bindtap='playVideo'></image>
+  <text class='chapter'>课程信息</text>
+  <text>课程：{{title}}</text>
+  <text>讲师：{{teacher}}</text>
+  <text>介绍：{{courseBrief}}</text>
+
+  <text class='chapter'>课程章节</text>
+  <block wx:for='{{courseList}}' wx:key='key'>
+    <text id='{{index}}'>{{courseList[index]}}</text>
+  </block>
+</view>

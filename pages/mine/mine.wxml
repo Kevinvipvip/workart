@@ -1,0 +1,26 @@
+<view class='personal-top'>
+  <image src='{{img}}'></image>
+  <text class='nick'>{{name}}</text>
+</view>
+
+<view class='personal-list'>
+  <view class='personal-list-box' data-index='0' bindtap='nextPages'>
+    <text>伯乐</text>
+  </view>
+  <view class='personal-list-box' data-index='1' bindtap='nextPages'>
+    <text>调查</text>
+  </view>
+  <view class='personal-list-box' data-index='2' bindtap='nextPages'>
+    <text>讲堂</text>
+  </view>
+  <view class='personal-list-box' data-index='3' bindtap='nextPages'>
+    <text>读书</text>
+  </view>
+  <view class='personal-list-box' bindtap='clearStorage'>
+    <text>缓存</text>
+  </view>
+  <view class='sh-box'>
+    <image class='logo' src='../../images/shlogo1.png'></image>
+    <text class='tip'>提供技术支持</text>
+  </view>
+</view>
