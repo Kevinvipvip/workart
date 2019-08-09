@@ -2,43 +2,43 @@
 var wearAndRide = [{
   id: 1,
   text: '半身裙职场中的出镜率还是蛮高的，夏季可以选择T恤、雪纺、针织类的小衫也能穿出职场气质精，如果觉得颜色太过素雅可以选择亮色系的鞋子，来增加整体的时髦指数。也可以换成小白鞋或是帆布鞋出入办公室即舒适又不觉得随意。',
-  img: 'http://www.jianghairui.com/images/zhichang6.jpg'
+  img: 'http://static.wcip.net/images/zhichang6.jpg'
 }, {
   id: 2,
   text: '迷笛裙，伞裙也是很好的选择，当下这个季节可以多穿着一些柔和的浅色系如白色上衣搭配浅蓝色半身裙，黑色上衣搭配波点图案的半身裙，清新干净、自然舒适，这种无公害宝宝形象在职场中能快速给自己建立可信赖感赢得好人员。',
-  img: 'http://www.jianghairui.com/images/zhichang7.jpg'
+  img: 'http://static.wcip.net/images/zhichang7.jpg'
 }, {
   id: 3,
   text: '不必多说，西装一定是商务通勤人士最保险的秋季外套之一。虽说每个人穿西装的感觉不一样，姿势形态各异，但这并不妨碍一件剪裁合体的西装穿在身上，立马穿好西装也有很多讲究，拉高精气神的作用。',
-  img: 'http://www.jianghairui.com/images/zhichang8.jpg'
+  img: 'http://static.wcip.net/images/zhichang8.jpg'
 }, {
   id: 4,
   text: '对于一般的上班族而言，一件休闲西装就足以应对换季。材质轻薄、款型简约舒适又不会觉得拘谨，上面这位小哥哥的一身就是很不错的示范。藏蓝色休闲西装+白衬衫 + 白色布鞋，简约不失稳重，大方又不会显得过于严肃，适合清爽的秋季。',
-  img: 'http://www.jianghairui.com/images/zhichang9.jpg'
+  img: 'http://static.wcip.net/images/zhichang9.jpg'
 }, {
   id: 5,
   text: '我们经常穿的衬衫纯白色是比较常见的，但是在衬衫上面稍作改动，比如说细小位置上面的设计，或者是颜色上面的改变其实都是比较不错的。这些颜色还能够让你展示出个人的特色和性格，而小细节的处理能够展示你的质感和追求，所以说公司之中有质感但是不浮夸的设计其实是可以为你加分的。而在西装裤子上面的设计也是有小心思的，对于女生来说最好的当然是九分微喇裤了，九分裤能够让我们看起来腿更长，而微喇设计能够让我们的腿因为有这样的弧度，小腿显得纤细大腿也有身材缺陷上的包容。',
-  img: 'http://www.jianghairui.com/images/zhichang10.jpg'
+  img: 'http://static.wcip.net/images/zhichang10.jpg'
 }]
 
 // 讲堂轮播图
 var swiperImg = [{
   id: 1,
-  imgUrl: "http://www.jianghairui.com/images/jiangtang1.png"
+  imgUrl: "http://static.wcip.net/images/jiangtang1.png"
 }, {
   id: 2,
-  imgUrl: "http://www.jianghairui.com/images/jiangtang2.png"
+  imgUrl: "http://static.wcip.net/images/jiangtang2.png"
 }, {
   id: 3,
-  imgUrl: "http://www.jianghairui.com/images/jiangtang3.png"
+  imgUrl: "http://static.wcip.net/images/jiangtang3.png"
 }]
 
 
 // 讲堂课程数据
 var courseRecommend = [{
   id: 1,
-  img: 'http://www.jianghairui.com/images/jiangtang1.png',
-  video: 'http://www.jianghairui.com/images/jiangtang_mp4_1.png',
+  img: 'http://static.wcip.net/images/jiangtang1.png',
+  video: 'http://static.wcip.net/images/jiangtang_mp4_1.png',
   title: '手把手教你做产品经理（第3版）',
   teacher: '吴金志',
   courseBrief: '总结了第1版、第2版全网共计3000余学员的学习反馈之后、历经7个月的筹备和调研独立研发出“理论+实践+点评”3环学习法，设计出本套课程“吴金志:手把手教你做产品经理（第3版）”。本套课程从“量”和“质”上均进行了大幅度的提升和优化，更加符合“0基础小白”用户的口味，是你全面系统深入认识产品经理的绝佳方法。',
@@ -46,8 +46,8 @@ var courseRecommend = [{
   time: '40:26'
 }, {
   id: 2,
-  img: 'http://www.jianghairui.com/images/jiangtang2.png',
-  video: 'http://www.jianghairui.com/images/jiangtang_mp4_1.png',
+  img: 'http://static.wcip.net/images/jiangtang2.png',
+  video: 'http://static.wcip.net/images/jiangtang_mp4_1.png',
   title: '电子商务培训班',
   teacher: '王阳阳',
   courseBrief: '28八大模块，即学即用，深入有效的电子商务培训课程，淘宝术语 、店铺定位、新店注册、卖家中心实操、选款定价、宝贝文案、宝贝主图、宝贝详情页、宝贝黄金标题 、 数据分析 、淘宝SEO、直通车、钻展、 淘宝客、淘宝活动、 客服转化、爆款打造、店铺装修、无线运营',
@@ -55,8 +55,8 @@ var courseRecommend = [{
   time: '30:26'
 }, {
   id: 3,
-  img: 'http://www.jianghairui.com/images/jiangtang3.png',
-  video: 'http://www.jianghairui.com/images/jiangtang_mp4_3.png',
+  img: 'http://static.wcip.net/images/jiangtang3.png',
+  video: 'http://static.wcip.net/images/jiangtang_mp4_3.png',
   title: 'Python应用基础',
   teacher: '嵩天',
   courseBrief: '本课程为《Python应用基础》微专业的配套免费直播课，由微专业的金牌导师讲授。本微专业由网易云课堂联合北京理工大学名师嵩天集多年教学经验、潜心打造最热编程语言的科学学习法。学习 Python 从这里开始。',
@@ -64,8 +64,8 @@ var courseRecommend = [{
   time: '46:26'
 }, {
   id: 4,
-  img: 'http://www.jianghairui.com/images/jiangtang4.png',
-  video: 'http://www.jianghairui.com/images/jiangtang_mp4_4.png',
+  img: 'http://static.wcip.net/images/jiangtang4.png',
+  video: 'http://static.wcip.net/images/jiangtang_mp4_4.png',
   title: 'python数据分析与机器学习实战',
   teacher: '唐宇迪',
   courseBrief: '使用数据领域最主流语言Python及其分析与建模库作为核心武器。对于机器学习经典算法给出完整的原理推导并基于实例进行讲解，基于案例演示如何应用机器学习算法解决实际问题。',
@@ -73,8 +73,8 @@ var courseRecommend = [{
   time: '50:26'
 }, {
   id: 5,
-  img: 'http://www.jianghairui.com/images/jiangtang5.jpg',
-  video: 'http://www.jianghairui.com/images/jiangtang_mp4_5.png',
+  img: 'http://static.wcip.net/images/jiangtang5.jpg',
+  video: 'http://static.wcip.net/images/jiangtang_mp4_5.png',
   title: 'Spark编程基础',
   teacher: '林子雨',
   courseBrief: '本课程更加精美版本的视频，已经发布到中国大学MOOC。本课程由国内高校知名大数据教师厦门大学林子雨老师主讲，由厦门大学数据库实验室团队提供配套课程服务。课程教材是林子雨老师编著的《Spark编程基础》(人民邮电出版社，ISBN: 978 - 7 - 115 - 47598 - 5）。本课程属于“进阶级”大数据课程，需要读者已经学习过大数据导论课程，了解Hadoop、MapReduce、HDFS、HBase等大数据基础知识。如果没有学习过大数据导论课程，建议读者先在网易云课堂学习林子雨老师主讲的大数据入门课程《大数据技术原理与应用》，该课程的两个版本在网易云课堂和中国大学MOOC学习人数超过8万人，99 % 网友给予了五星级最高评价。本课程以Scala作为开发Spark应用程序的编程语言，系统介绍了Spark编程的基础知识。',
@@ -82,8 +82,8 @@ var courseRecommend = [{
   time: '48:26'
 }, {
   id: 6,
-  img: 'http://www.jianghairui.com/images/jiangtang6.jpg',
-  video: 'http://www.jianghairui.com/images/jiangtang_mp4_6.png',
+  img: 'http://static.wcip.net/images/jiangtang6.jpg',
+  video: 'http://static.wcip.net/images/jiangtang_mp4_6.png',
   title: '大数据技术原理与应用',
   teacher: '林子雨',
   courseBrief: '本课程重新制作后的、更加精美版本的讲课视频，已经发布到中国大学MOOC平台，欢迎到中国大学MOOC观看精美版视频。入门级大数据课程，适合初学者，完备的课程在线服务体系，可以帮助初学者实现“零基础”学习大数据课程。课程采用厦门大学林子雨老师编著的国内高校第一本系统性介绍大数据知识专业教材《大数据技术原理与应用》。课程紧紧围绕“构建知识体系、阐明基本原理、引导初级实践、了解相关应用”的指导思想，对大数据知识体系进行系统梳理，做到“有序组织、去粗取精、由浅入深、渐次展开”。所有内容已经全部发布。',
@@ -91,8 +91,8 @@ var courseRecommend = [{
   time: '56:10'
 }, {
   id: 7,
-  img: 'http://www.jianghairui.com/images/jiangtang7.jpg',
-  video: 'http://www.jianghairui.com/images/jiangtang_mp4_7.png',
+  img: 'http://static.wcip.net/images/jiangtang7.jpg',
+  video: 'http://static.wcip.net/images/jiangtang_mp4_7.png',
   title: 'Hadoop大数据开发',
   teacher: '李兴华',
   courseBrief: '大数据是现在最为火热的话题，也是具有国家战略意义的重要话题。在从事IT行业今天的你，如果不懂得大数据技术，那么你就OUT了。本课程将为读者讲解大数据的开发实战，从最原始的linux开发环境的搭建到后续的Hadoop、MapReduce课程，希望通过本门课程可以让读者对大数据的开发有个基础认识。',
@@ -103,7 +103,7 @@ var courseRecommend = [{
 // 名师在线数据
 var teacher = [{
   id: 1,
-  pic: 'http://www.jianghairui.com/images/header4.jpg',
+  pic: 'http://static.wcip.net/images/header4.jpg',
   name: '吴金志',
   grade: '高级教师',
   teachAge: '2',
@@ -112,13 +112,13 @@ var teacher = [{
   course: [{
     courseid: 1,
     coursename: '手把手教你做产品经理（第3版）',
-    courseimg: 'http://www.jianghairui.com/images/jiangtang1.png',
+    courseimg: 'http://static.wcip.net/images/jiangtang1.png',
     courselinknum: 213,
     coursecollectnum: 525
   }]
 }, {
   id: 2,
-  pic: 'http://www.jianghairui.com/images/header6.png',
+  pic: 'http://static.wcip.net/images/header6.png',
   name: '王阳阳',
   grade: '中级教师',
   teachAge: '',
@@ -127,13 +127,13 @@ var teacher = [{
   course: [{
     courseid: 2,
     coursename: '电子商务培训班',
-    courseimg: 'http://www.jianghairui.com/images/jiangtang2.png',
+    courseimg: 'http://static.wcip.net/images/jiangtang2.png',
     courselinknum: 213,
     coursecollectnum: 525
   }]
 }, {
   id: 3,
-  pic: 'http://www.jianghairui.com/images/header7.png',
+  pic: 'http://static.wcip.net/images/header7.png',
   name: '嵩天',
   grade: '初级教师',
   teachAge: '2',
@@ -142,21 +142,21 @@ var teacher = [{
   course: [{
       courseid: 3,
       coursename: 'Python应用基础',
-      courseimg: 'http://www.jianghairui.com/images/jiangtang3.png',
+      courseimg: 'http://static.wcip.net/images/jiangtang3.png',
       courselinknum: 213,
       coursecollectnum: 525
     },
     //  {
     //   courseid: 6,
     //   coursename: '职场生存艺术',
-    //   courseimg: 'http://www.jianghairui.com/images/img3.jpg',
+    //   courseimg: 'http://static.wcip.net/images/img3.jpg',
     //   courselinknum: 213,
     //   coursecollectnum: 525
     // }
   ]
 }, {
   id: 4,
-  pic: 'http://www.jianghairui.com/images/header5.jpg',
+  pic: 'http://static.wcip.net/images/header5.jpg',
   name: '唐宇迪',
   grade: '中级教师',
   teachAge: '2',
@@ -165,13 +165,13 @@ var teacher = [{
   course: [{
     courseid: 3,
     coursename: 'Python应用基础',
-    courseimg: 'http://www.jianghairui.com/images/jiangtang3.png',
+    courseimg: 'http://static.wcip.net/images/jiangtang3.png',
     courselinknum: 213,
     coursecollectnum: 525
   }]
 }, {
   id: 5,
-  pic: 'http://www.jianghairui.com/images/header8.jpg',
+  pic: 'http://static.wcip.net/images/header8.jpg',
   name: '林子雨',
   grade: '高级教师',
   teachAge: '2',
@@ -180,19 +180,19 @@ var teacher = [{
   course: [{
     courseid: 5,
     coursename: 'Spark编程基础',
-    courseimg: 'http://www.jianghairui.com/images/jiangtang5.jpg',
+    courseimg: 'http://static.wcip.net/images/jiangtang5.jpg',
     courselinknum: 213,
     coursecollectnum: 525
   }, {
     courseid: 6,
     coursename: '大数据技术原理与应用',
-    courseimg: 'http://www.jianghairui.com/images/jiangtang6.jpg',
+    courseimg: 'http://static.wcip.net/images/jiangtang6.jpg',
     courselinknum: 213,
     coursecollectnum: 525
   }]
 }, {
   id: 6,
-  pic: 'http://www.jianghairui.com/images/header9.jpg',
+  pic: 'http://static.wcip.net/images/header9.jpg',
   name: '李兴华',
   grade: '初级教师',
   teachAge: '',
@@ -201,14 +201,14 @@ var teacher = [{
   course: [{
       courseid: 7,
       coursename: 'Hadoop大数据开发',
-      courseimg: 'http://www.jianghairui.com/images/jiangtang7.jpg',
+      courseimg: 'http://static.wcip.net/images/jiangtang7.jpg',
       courselinknum: 213,
       coursecollectnum: 525
     },
     //  {
     //   courseid: 6,
     //   coursename: '职场生存艺术',
-    //   courseimg: 'http://www.jianghairui.com/images/img3.jpg',
+    //   courseimg: 'http://static.wcip.net/images/img3.jpg',
     //   courselinknum: 213,
     //   coursecollectnum: 525
     // }
@@ -218,7 +218,7 @@ var teacher = [{
 // 读书界面数据
 var read = [{
   id: 1,
-  img: 'http://www.jianghairui.com/images/riben.jpg',
+  img: 'http://static.wcip.net/images/riben.jpg',
   title: '不生气,你就赢了',
   name: '华阳',
   publishDate: '2016年3月',
@@ -227,7 +227,7 @@ var read = [{
   reason: '写给每位内心善良的人，每句话都会得以庇护，让你的性格、情绪、自控力、都得到好的诠释，让每一个性情中人在这书里得到情感的升华。'
 }, {
   id: 2,
-  img: 'http://www.jianghairui.com/images/read1.jpg',
+  img: 'http://static.wcip.net/images/read1.jpg',
   title: '沟通圣经',
   name: '[英]尼基·斯坦顿',
   publishDate: '2015年12月',
@@ -236,7 +236,7 @@ var read = [{
   reason: '在人际交往日益密切的今天，你是否曾认真考虑过：这是最好的沟通方式吗？这是我想达到的效果吗？这真是我想说的话吗？在这个快速变迁的时代，《沟通圣经》将带你应对所有沟通的挑战。'
 }, {
   id: 3,
-  img: 'http://www.jianghairui.com/images/read2.jpg',
+  img: 'http://static.wcip.net/images/read2.jpg',
   title: '沟通的艺术',
   name: '[美]罗纳德·B·阿德勒 / 拉塞尔·F·普罗科特',
   publishDate: '第1版 (2010年12月1日)',
@@ -245,7 +245,7 @@ var read = [{
   reason: '本书作者投注了多年的专业经验，将本书打造成为有关人际关系理论与实践的最佳读本。本书兼具深入性、广泛性与完整性，特别针对性别与文化观点进行了贯穿全书的探讨。'
 }, {
   id: 4,
-  img: 'http://www.jianghairui.com/images/read3.jpg',
+  img: 'http://static.wcip.net/images/read3.jpg',
   title: '心理学与生活',
   name: '理查德·格里格、菲利普·津巴多',
   publishDate: '2003年10月',
@@ -254,7 +254,7 @@ var read = [{
   reason: '作为一本包含着丰富的教育思想和独特教学方法的成熟教材，原书中所有元素——如由600余条词汇及解释组成的“专业术语表”，2000余条“参考文献”，以及近1000条的“人名和主题索引”等等，对于教学、研究和学习都十分宝贵，此中译本完整地翻译和保留了这些资料。'
 }, {
   id: 5,
-  img: 'http://www.jianghairui.com/images/read4.jpg',
+  img: 'http://static.wcip.net/images/read4.jpg',
   title: '请停止无效努力',
   name: '孙圈圈',
   publishDate: '2017年1月',
@@ -263,7 +263,7 @@ var read = [{
   reason: '书中提供的科学以及便于实践的工具与方法。都通过形象生动的思维导图展现出来。结合每篇文章的后续练习好好实践。最终将会彻底颠覆一个人过去的思维认知。从而让工作和人生发生巨大的变化。'
 }, {
   id: 6,
-  img: 'http://www.jianghairui.com/images/read5.jpg',
+  img: 'http://static.wcip.net/images/read5.jpg',
   title: '学会提问',
   name: '（美）尼尔·布朗，斯图尔特·基利',
   publishDate: '2013年1月',
@@ -274,70 +274,70 @@ var read = [{
 
 var art = [{
   id: 1,
-  img: ['http://www.jianghairui.com/images/art1.jpg', 'http://www.jianghairui.com/images/art2.jpg', 'http://www.jianghairui.com/images/art3.jpg', 'http://www.jianghairui.com/images/art4.jpg'],
+  img: ['http://static.wcip.net/images/art1.jpg', 'http://static.wcip.net/images/art2.jpg', 'http://static.wcip.net/images/art3.jpg', 'http://static.wcip.net/images/art4.jpg'],
   title: '时尚创意牛优质陶瓷摆件',
   artBrief: '牛，既是勤劳的象征，也是风水摆件的首选，牛气冲天，风水招财，家居摆件，手工制作，环保陶瓷，现代简约，送礼佳品，现代家居装饰首选，空间点缀，简约唯美。'
 }, {
   id: 2,
-  img: ['http://www.jianghairui.com/images/art5.jpg', 'http://www.jianghairui.com/images/art6.jpg', 'http://www.jianghairui.com/images/art7.jpg', 'http://www.jianghairui.com/images/art8.jpg'],
+  img: ['http://static.wcip.net/images/art5.jpg', 'http://static.wcip.net/images/art6.jpg', 'http://static.wcip.net/images/art7.jpg', 'http://static.wcip.net/images/art8.jpg'],
   title: '复古地球仪装饰摆件',
   artBrief: '拥有古典，优雅的气度，也有沧桑，从容的气质，定格瞬间即成永恒，以更有质感的态度为空间带来主题性，树脂材质，更有质感，无毒无味。'
 }, {
   id: 3,
-  img: ['http://www.jianghairui.com/images/art9.jpg', 'http://www.jianghairui.com/images/art10.jpg', 'http://www.jianghairui.com/images/art11.jpg', 'http://www.jianghairui.com/images/art12.jpg'],
+  img: ['http://static.wcip.net/images/art9.jpg', 'http://static.wcip.net/images/art10.jpg', 'http://static.wcip.net/images/art11.jpg', 'http://static.wcip.net/images/art12.jpg'],
   title: '阳光风车创意摆件',
   artBrief: '时来运转，太阳能风车，只需要放在阳光下，风车就会自动旋转，光线越强，转动速度就会越快，强烈光源下也可以转动，接受阳光的能量。'
 }, {
   id: 4,
-  img: ['http://www.jianghairui.com/images/art13.jpg', 'http://www.jianghairui.com/images/art14.jpg', 'http://www.jianghairui.com/images/art15.jpg', 'http://www.jianghairui.com/images/art16.jpg'],
+  img: ['http://static.wcip.net/images/art13.jpg', 'http://static.wcip.net/images/art14.jpg', 'http://static.wcip.net/images/art15.jpg', 'http://static.wcip.net/images/art16.jpg'],
   title: '时尚创意铁艺笔筒摆件',
   artBrief: '简约风的抽象艺术，精美的秋千笔筒，彰显您的时尚与优雅，创意的音乐铁人加上实用的笔筒，为您营造整洁的办公桌面，富有现代感摆件，成为桌上一道独特靓丽的风景线。'
 }]
 
 var food = [{
   id: 1,
-  img: ['http://www.jianghairui.com/images/sanzhisongshu4.jpg', 'http://www.jianghairui.com/images/sanzhisongshu5.jpg'],
+  img: ['http://static.wcip.net/images/sanzhisongshu4.jpg', 'http://static.wcip.net/images/sanzhisongshu5.jpg'],
   name: '三只松鼠',
   price: '109.00',
   factoryname: '含羞草(江苏)食品有限公司',
   factoryaddress: '南京市溧水经济开发区溧星路97号',
   period: '180',
   net_content: '750',
-  detailImg: ['http://www.jianghairui.com/images/sanzhisongshu1.jpg', 'http://www.jianghairui.com/images/sanzhisongshu2.jpg', 'http://www.jianghairui.com/images/sanzhisongshu3.jpg'],
+  detailImg: ['http://static.wcip.net/images/sanzhisongshu1.jpg', 'http://static.wcip.net/images/sanzhisongshu2.jpg', 'http://static.wcip.net/images/sanzhisongshu3.jpg'],
   place: '中国大陆'
 
 }, {
   id: 2,
-  img: ['http://www.jianghairui.com/images/zhouheiya1.jpg', 'http://www.jianghairui.com/images/zhouheiya2.jpg'],
+  img: ['http://static.wcip.net/images/zhouheiya1.jpg', 'http://static.wcip.net/images/zhouheiya2.jpg'],
   name: '周黑鸭',
   price: '66.80',
   factoryname: '湖北周黑鸭食品工业园有限公司',
   factoryaddress: '湖北省武汉市东西湖区走马岭汇通大道8-1号',
   period: '5',
   net_content: '690',
-  detailImg: ['http://www.jianghairui.com/images/zhouheiya3.jpg', 'http://www.jianghairui.com/images/zhouheiya4.jpg', 'http://www.jianghairui.com/images/zhouheiya5.jpg'],
+  detailImg: ['http://static.wcip.net/images/zhouheiya3.jpg', 'http://static.wcip.net/images/zhouheiya4.jpg', 'http://static.wcip.net/images/zhouheiya5.jpg'],
   place: '中国大陆'
 }, {
   id: 3,
-  img: ['http://www.jianghairui.com/images/weilong1.jpg', 'http://www.jianghairui.com/images/weilong2.jpg'],
+  img: ['http://static.wcip.net/images/weilong1.jpg', 'http://static.wcip.net/images/weilong2.jpg'],
   name: '大面筋106g*5 卫龙辣条零食大礼包',
   price: '22.90',
   factoryname: '漯河市平平食品有限责任公司',
   factoryaddress: '漯河经济开发区燕山路南段民营工业区',
   period: '120 ',
   net_content: '530',
-  detailImg: ['http://www.jianghairui.com/images/weilong3.jpg'],
+  detailImg: ['http://static.wcip.net/images/weilong3.jpg'],
   place: '中国大陆'
 }, {
   id: 4,
-  img: ['http://www.jianghairui.com/images/liangpinpuzi1.jpg', 'http://www.jianghairui.com/images/liangpinpuzi2.jpg'],
+  img: ['http://static.wcip.net/images/liangpinpuzi1.jpg', 'http://static.wcip.net/images/liangpinpuzi2.jpg'],
   name: '良品铺子坚果大礼包1339g/12袋',
   price: '98.00 ',
   factoryname: '杭州临安良品铺子食品有限公司',
   factoryaddress: '浙江省杭州市临安市龙岗镇龙昌街818号',
   period: '150',
   net_content: '1339',
-  detailImg: ['http://www.jianghairui.com/images/liangpinpuzi3.jpg', 'http://www.jianghairui.com/images/liangpinpuzi4.jpg', 'http://www.jianghairui.com/images/liangpinpuzi5.jpg', 'http://www.jianghairui.com/images/liangpinpuzi6.jpg'],
+  detailImg: ['http://static.wcip.net/images/liangpinpuzi3.jpg', 'http://static.wcip.net/images/liangpinpuzi4.jpg', 'http://static.wcip.net/images/liangpinpuzi5.jpg', 'http://static.wcip.net/images/liangpinpuzi6.jpg'],
   place: '中国大陆'
 }]
 

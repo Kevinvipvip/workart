@@ -2,6 +2,7 @@ App({
   onLaunch: function () {
   },
   my_config: {
+    url: 'http://static.wcip.net',
     base_url: 'https://www.caves.vip',
     api: 'https://www.caves.vip/art/api.',
     default_img: '/images/default.jpg',
