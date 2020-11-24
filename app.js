@@ -1,6 +1,5 @@
 App({
-  onLaunch: function () {
-  },
+  onLaunch: function () {},
   my_config: {
     url: 'http://static.wcip.net',
     base_url: 'https://www.caves.vip',
@@ -47,11 +46,13 @@ App({
             err(res.data);
           } else {
             switch (res.data.code) {
-              case -3:  // token失效
-              case -5:  // token未传
+              case -3: // token失效
+              case -5: // token未传
                 let current_pages = getCurrentPages();
                 let current_page = current_pages[current_pages.length - 1];
-                wx.redirectTo({ url: '/pages/login/login?route=' + encodeURIComponent(current_page.route + that.obj2query(current_page.options)) });
+                wx.redirectTo({
+                  url: '/pages/login/login?route=' + encodeURIComponent(current_page.route + that.obj2query(current_page.options))
+                });
                 break;
               default:
                 if (res.data.message) {
@@ -162,3 +163,12 @@ App({
     }
   }
 })
+
+// app.json文件摘除
+
+// {
+//   "pagePath": "pages/notes/notes",
+//   "iconPath": "images/note.png",
+//   "selectedIconPath": "images/note-selected.png",
+//   "text": "笔记"
+// },

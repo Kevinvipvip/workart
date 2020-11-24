@@ -1,9 +1,9 @@
 {
 	"pages": [
+		"pages/index/index",
+		"pages/notes/notes",
 		"pages/auth/auth",
 		"pages/login/login",
-		"pages/notes/notes",
-		"pages/index/index",
 		"pages/mine/mine",
 		"pages/art/art",
 		"pages/logs/logs",
@@ -42,12 +42,6 @@
 				"iconPath": "images/art.png",
 				"selectedIconPath": "images/art-selected.png",
 				"text": "艺术"
-			},
-			{
-				"pagePath": "pages/notes/notes",
-				"iconPath": "images/note.png",
-				"selectedIconPath": "images/note-selected.png",
-				"text": "笔记"
 			},
 			{
 				"pagePath": "pages/mine/mine",
